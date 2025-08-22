@@ -9,9 +9,9 @@ namespace Objects_Stone_Evan
     internal interface IBootUp
     {
 
-        public bool IsOn { get; set; }
+        public bool IsOn { get; set; } //get and sets the public bool IsOn
 
-        public void PowerOnOff();
+        public void PowerOnOff(); //creates PowerOnOff
 
     }
 }
